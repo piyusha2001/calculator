@@ -16,6 +16,7 @@
 }
 .giphy-embed3{
   position: absolute;
-  right: 200px;
-  top: 350px;
+  right: 150px;
+  top: 300px;
+  bottom: 300px;
 }

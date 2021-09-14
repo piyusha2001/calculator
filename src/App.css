@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 @import url("https://animate.style/");
 h1{
-  font-size: 50px;
+  font-size: 80px;
   font-family: 'Dancing Script', cursive;
-  color: #88FFF7;
+  color: #3EDBF0;
   animation-name: initial;
   animation-delay :10s;
  
@@ -52,7 +52,16 @@ button{
   font-size: large;
   border-radius:10px 10px;
   background-color: #88FFF7;
+  transition-duration: 0.4s;
+  cursor: pointer;
+
   
+}
+
+button:hover{
+  background-color:#FAF3F3;
+  color: black;
+
 }
 
 .item1{
