@@ -1,0 +1,21 @@
+.giphy-embed{
+  position: absolute;
+  left: 200px;
+  top: 350px;
+}
+
+.giphy-embed1{
+  position: absolute;
+  left: 100px;
+}
+
+
+.giphy-embed2{
+  position: absolute;
+  left: 1000px;
+}
+.giphy-embed3{
+  position: absolute;
+  right: 200px;
+  top: 350px;
+}

@@ -1,9 +1,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url("https://animate.style/");
 h1{
   font-size: 50px;
   font-family: 'Dancing Script', cursive;
   color: #88FFF7;
+  animation-name: initial;
+  animation-delay :10s;
  
 
 }
@@ -28,6 +31,7 @@ body{
 
 .container{
   text-align: center;
+  position: relative;
   
 }
 
@@ -60,3 +64,4 @@ button{
   width: 160px;
 
 }
+

@@ -1,7 +1,7 @@
 
 import './App.css';
 import React, { useState } from 'react';
-
+import "animate.css"
 
 function App() {
   
