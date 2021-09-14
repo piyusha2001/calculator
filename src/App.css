@@ -1,10 +1,18 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 h1{
   font-size: 50px;
+  font-family: 'Dancing Script', cursive;
+  color: #88FFF7;
+ 
+
 }
 
 body{
   text-align: center;
-  margin: 50% 20%;
+  margin: 5% 20% 5% 20%;
+  background-color:
+  #FFA0A0;
   
   
 }
@@ -15,10 +23,12 @@ body{
   font-size: xx-large;
   height: 80px;
   width: 312px;
+  border-radius: 10px 10px;
 }
 
 .container{
   text-align: center;
+  
 }
 
 .keys{
@@ -32,9 +42,12 @@ body{
 
 button{
   
+  
   height: 80px;
   width: 80px;
   font-size: large;
+  border-radius:10px 10px;
+  background-color: #88FFF7;
   
 }
 

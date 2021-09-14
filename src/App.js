@@ -2,7 +2,9 @@
 import './App.css';
 import React, { useState } from 'react';
 
+
 function App() {
+  
   const [count, setCount] = useState(" ");
  
   const handleClick=(e)=>{
@@ -26,11 +28,10 @@ function App() {
    }
 
 
-  
-
-  
   return(
+
     <div className="container">
+      <h1>CALCULATOR</h1>
       <form>
         <input className="box" type="text" value={count}/>
       </form>
@@ -57,7 +58,7 @@ function App() {
       </div>
 
     </div>
-  )
-  }
+  );
+}
 
 export default App;
