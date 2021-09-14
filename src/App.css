@@ -1,0 +1,49 @@
+h1{
+  font-size: 50px;
+}
+
+body{
+  text-align: center;
+  margin: 50% 20%;
+  
+  
+}
+
+
+.box{
+  text-align: right;
+  font-size: xx-large;
+  height: 80px;
+  width: 312px;
+}
+
+.container{
+  text-align: center;
+}
+
+.keys{
+  display: grid;
+  grid-template-columns:80px 80px 80px 80px;
+  justify-content: center;
+
+  
+  
+}
+
+button{
+  
+  height: 80px;
+  width: 80px;
+  font-size: large;
+  
+}
+
+.item1{
+  width:160px;
+  grid-column: 1/span 2 ;
+}
+
+.item18{
+  width: 160px;
+
+}
