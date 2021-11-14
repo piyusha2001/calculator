@@ -1,10 +1,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
-@import url("https://animate.style/");
+
 h1{
   font-size: 80px;
   font-family: 'Dancing Script', cursive;
-  color: #3EDBF0;
+  color: #FF4848;
   animation-name: initial;
   animation-delay :10s;
  
@@ -15,7 +15,7 @@ body{
   text-align: center;
   margin: 5% 20% 5% 20%;
   background-color:
-  #FFA0A0;
+  #9DDAC6;
   
   
 }
@@ -51,8 +51,7 @@ button{
   width: 80px;
   font-size: large;
   border-radius:10px 10px;
-  background-color: #88FFF7;
-  transition-duration: 0.4s;
+  background-color:#FF4848;
   cursor: pointer;
 
   
@@ -67,6 +66,9 @@ button:hover{
 .item1{
   width:160px;
   grid-column: 1/span 2 ;
+  background-color: #FF4848;
+  border-radius:10px 10px;
+
 }
 
 .item18{
