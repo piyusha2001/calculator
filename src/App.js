@@ -17,7 +17,7 @@ function App() {
   };
 
   const result = (e) => {
-    setCount(eval(result));
+    setCount(eval(count).toString());
   };
 
   const buttons = [
@@ -125,7 +125,7 @@ function App() {
           AC
         </button>
         <button className="button item2" name="backspace" onClick={backspace}>
-          BACK
+          B
         </button>
         <button className="button item18" name="=" onClick={result}>
           =

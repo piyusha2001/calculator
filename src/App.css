@@ -4,7 +4,7 @@
 h1{
   font-size: 80px;
   font-family: 'Dancing Script', cursive;
-  color: #FF4848;
+  color: #71DFE7;
   animation-name: initial;
   animation-delay :10s;
  
@@ -14,8 +14,8 @@ h1{
 body{
   text-align: center;
   margin: 5% 20% 5% 20%;
-  background-color:
-  #9DDAC6;
+  background-color:#F3950D
+  ;
   
   
 }
@@ -51,7 +51,7 @@ button{
   width: 80px;
   font-size: large;
   border-radius:10px 10px;
-  background-color:#FF4848;
+  background-color:#71DFE7;
   cursor: pointer;
 
   
@@ -66,13 +66,15 @@ button:hover{
 .item1{
   width:160px;
   grid-column: 1/span 2 ;
-  background-color: #FF4848;
+  background-color:#71DFE7;
   border-radius:10px 10px;
 
 }
 
 .item18{
-  width: 160px;
+  width: 80px;
+  
+
 
 }
 
