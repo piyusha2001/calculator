@@ -1,27 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
-
-h1{
+h1 {
   font-size: 80px;
-  font-family: 'Dancing Script', cursive;
-  color: #71DFE7;
+  font-family: "Dancing Script", cursive;
+  color: #71dfe7;
   animation-name: initial;
-  animation-delay :10s;
- 
-
+  animation-delay: 10s;
 }
 
-body{
+body {
   text-align: center;
   margin: 5% 20% 5% 20%;
-  background-color:#F3950D
-  ;
-  
-  
+  background-color: #f3950d;
 }
 
-
-.box{
+.box {
   text-align: right;
   font-size: xx-large;
   height: 80px;
@@ -29,52 +22,38 @@ body{
   border-radius: 10px 10px;
 }
 
-.container{
+.container {
   text-align: center;
   position: relative;
-  
 }
 
-.keys{
+.keys {
   display: grid;
-  grid-template-columns:80px 80px 80px 80px;
+  grid-template-columns: 80px 80px 80px 80px;
   justify-content: center;
-
-  
-  
 }
 
-button{
-  
-  
+button {
   height: 80px;
   width: 80px;
   font-size: large;
-  border-radius:10px 10px;
-  background-color:#71DFE7;
+  border-radius: 10px 10px;
+  background-color: #71dfe7;
   cursor: pointer;
-
-  
 }
 
-button:hover{
-  background-color:#FAF3F3;
+button:hover {
+  background-color: #faf3f3;
   color: black;
-
 }
 
-.item1{
-  width:160px;
-  grid-column: 1/span 2 ;
-  background-color:#71DFE7;
-  border-radius:10px 10px;
-
+.item1 {
+  width: 160px;
+  grid-column: 1 / span 2;
+  background-color: #71dfe7;
+  border-radius: 10px 10px;
 }
 
-.item18{
+.item18 {
   width: 80px;
-  
-
-
 }
-
